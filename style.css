@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', serif;
+    font-size: clamp(1em, 2.2vh, 1.2em);
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 237, 237);
+}
+
+.container {
+    position: relative;
+    min-height: 50vh;
+    min-width: 270px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.107);
+}
+
+.satu {
+    min-height: 20vh;
+    width: 100%;
+    background-color: #0174BE;
+    border-radius: 15px 15px 0 0;
+}
+
+figure {
+    width: 100px;
+    position: absolute;
+    left: 85px;
+    top: 30px;
+}
+
+.wendy {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 0 0 2px #0174BE;
+}
+
+.dua {
+    min-height: 30vh;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+.dua span {
+    font-size: .8em;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 5px;
+}
+
+.button p {
+    min-width: 100px;
+    background-color: #0174BE;
+    padding: .5em;
+    border-radius: 20px;
+}
+
+.button a:any-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.button :is(a:hover, a:focus-visible) {
+    color: rgb(221, 220, 220);
+    cursor: pointer;
+}
+
+.socmed {
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.socmed img {
+    width: 20px;
+    
+}
